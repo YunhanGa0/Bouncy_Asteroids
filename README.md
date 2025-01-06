@@ -34,10 +34,9 @@ small asteroids.
 - Asteroids can only be destroyed when they are shot or collide with the players ship. Asteroids the collide
 on the screen should continue on their original trajectory and not cause any change in course for each other.
 ## Destruction
-- When a large or medium asteroid is destroyed, it should be replaced by two smaller and faster asteroids. These
+- When a large or medium asteroid is destroyed, it will be replaced by two smaller and faster asteroids. These
 new asteroids should be travelling in a direction that is close to the direction of travel of the original asteroid,
-but with some element of randomisation (±20°). For example, if a large asteroid was travelling with the heading
-90°, then the two medium asteroids could have headings anywhere between 70° and 110°.
+but with some element of randomisation (±20°). 
 ## Points/Scoring
 Points are awarded for destroying the asteroids based on the following calculations:
 - Large asteroid - 50 points each
@@ -48,7 +47,7 @@ Points are awarded for destroying the asteroids based on the following calculati
 
 Every time the players score reaches a multiple of 10000, the player gains an extra life.
 ## Enemy Spaceships
-If the level has not been cleared quickly, such as within 30 seconds, an enemy spaceship may appear. These
+If the level has not been cleared quickly, such as within 30 seconds, an enemy spaceship will appear. These
 spaceships will move across the screen once and fire at the player. The larger spaceship is generally slow and
 does not fire frequently or very accurately. The smaller spaceship fires more often and more accurately, and
 it moves more deceptively to make it harder to shoot. Spaceships can be destroyed if they collide with an
@@ -62,3 +61,7 @@ placed randomly within the bounds of the screen, but should not be close to the 
 earlier levels (1 to 5) large spaceships are spawned. In later levels (+5) small spaceships are spawned.
 
 ## Examples
+| Operations | Animations |
+| ---------- | ---------- |
+| Meun | ![录制_2025_01_06_14_54_49_641~1](https://github.com/user-attachments/assets/93b68123-a825-48ed-97fb-e07e25677ed4) |
+| Movement |![录制_2025_01_06_15_00_28_937](https://github.com/user-attachments/assets/ae1938e1-eacf-4f90-8ecc-9e9ac0d3b585) |
